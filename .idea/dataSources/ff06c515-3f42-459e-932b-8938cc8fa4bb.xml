@@ -1003,10 +1003,10 @@
       <DataType>varchar(256)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="249" parent="232" name="grade">
+    <column id="249" parent="232" name="score">
       <Position>4</Position>
-      <DataType>varchar(256)|0s</DataType>
-      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+      <DataType>decimal(12,2 digit)|0s</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="250" parent="232" name="dept_name">
