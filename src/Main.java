@@ -82,9 +82,9 @@ public class Main
         }
     }
 
-    private static void update(Integer m)
+    private static void update(Integer choice)
     {
-        switch (m)
+        switch (choice)
         {
             case 1:
             {
@@ -114,8 +114,8 @@ public class Main
             {
                 //Update score base on id or dept_name
                 System.out.print("Update base on : 1-Id or 2-Department: ");
-                Integer choice = input.nextInt();
-                if (choice == 1)
+                Integer mychoice = input.nextInt();
+                if (mychoice == 1)
                 {
                     System.out.println("Enter the id of the student: ");
                     Integer id = input.nextInt();
@@ -125,7 +125,7 @@ public class Main
                     DataManager.update(id, score);
                     System.out.println("Done!!");
                 }
-                else if(choice == 2)
+                else if(mychoice == 2)
                 {
                     System.out.print("Enter the department of student: ");
                     String department = input.next();
