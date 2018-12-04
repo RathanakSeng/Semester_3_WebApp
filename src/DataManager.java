@@ -21,7 +21,7 @@ public class DataManager
     //Single Insertion
     public static void insert(Student stu)
     {
-        String query = "insert into student value('"+stu.id+"', '"+stu.name+"', '"+stu.dept_name+"', '"+stu.score+"')";
+        String query = "insert into student value('"+stu.getId()+"', '"+stu.getName()+"', '"+stu.getDept_name()+"', '"+stu.getScore()+"')";
         try
         {
             Statement statement = connection.createStatement();
@@ -42,7 +42,7 @@ public class DataManager
             arr.forEach(stu ->
             {
                 try {
-                    statement.addBatch(query + "('"+stu.id+"', '"+stu.name+"', '"+stu.dept_name+"', '"+stu.score+"')");
+                    statement.addBatch(query + "('"+stu.getId()+"', '"+stu.getName()+"', '"+stu.getDept_name()+"', '"+stu.getScore()+"')");
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
@@ -69,10 +69,10 @@ public class DataManager
             while (cursor.next())
             {
                 Student stu = new Student();
-                stu.id = cursor.getInt("id");
-                stu.name = cursor.getString("name");
-                stu.dept_name = cursor.getString("dept_name");
-                stu.score = cursor.getDouble("score");
+                stu.setId(cursor.getInt("id"));
+                stu.setName(cursor.getString("name"));
+                stu.setDept_name(cursor.getString("dept_name"));
+                stu.setScore(cursor.getDouble("score"));
 
                 arr.add(stu);
             }
@@ -95,10 +95,10 @@ public class DataManager
 
             while (cursor.next())
             {
-                stu.id = cursor.getInt("id");
-                stu.name = cursor.getString("name");
-                stu.dept_name = cursor.getString("dept_name");
-                stu.score = cursor.getDouble("score");
+                stu.setId(cursor.getInt("id"));
+                stu.setName(cursor.getString("name"));
+                stu.setDept_name(cursor.getString("dept_name"));
+                stu.setScore(cursor.getDouble("score"));
             }
         }
         catch (SQLException e)
