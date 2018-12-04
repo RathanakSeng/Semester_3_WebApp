@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class DataManager
 {
-    static Connection connection;
+    private static Connection connection = null;
     static
     {
         try
