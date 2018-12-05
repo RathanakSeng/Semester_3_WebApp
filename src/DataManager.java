@@ -67,8 +67,9 @@ public class DataManager
     {
         Student stu = new Student();
 
-        Statement statement = connection.createStatement();
-        ResultSet cursor = statement.executeQuery("select * from student where id = '"+id+"'");
+        PreparedStatement statement = connection.prepareStatement("select * from student where id = ?");
+        statement.setInt(1, id);
+        ResultSet cursor = statement.executeQuery();
 
         while (cursor.next())
         {
