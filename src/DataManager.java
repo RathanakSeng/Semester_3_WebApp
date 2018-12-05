@@ -19,190 +19,113 @@ public class DataManager
     }
 
     //Single Insertion
-    public static void insert(Student stu)
+    public static void insert(Student stu) throws SQLException
     {
         String query = "insert into student value('"+stu.getId()+"', '"+stu.getName()+"', '"+stu.getDept_name()+"', '"+stu.getScore()+"')";
-        try
-        {
-            Statement statement = connection.createStatement();
-            statement.execute(query);
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+        Statement statement = connection.createStatement();
+        statement.execute(query);
     }
 
     //Multiple Insertion
-    public static void insert(ArrayList<Student> arr)
+    public static void insert(ArrayList<Student> arr) throws SQLException
     {
         String query = "insert into student value";
-        try (Statement statement = connection.createStatement())
+        Statement statement = connection.createStatement();
+        arr.forEach(stu ->
         {
-            arr.forEach(stu ->
-            {
-                try {
-                    statement.addBatch(query + "('"+stu.getId()+"', '"+stu.getName()+"', '"+stu.getDept_name()+"', '"+stu.getScore()+"')");
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            });
-            statement.executeBatch();
-            statement.close();
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+            try {
+                statement.addBatch(query + "('"+stu.getId()+"', '"+stu.getName()+"', '"+stu.getDept_name()+"', '"+stu.getScore()+"')");
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        });
+        statement.executeBatch();
     }
 
     //Read base on Id
-    public static ArrayList<Student> read()
+    public static ArrayList<Student> read() throws SQLException
     {
         ArrayList<Student> arr = new ArrayList<Student>();
+        Statement statement = connection.createStatement();
+        ResultSet cursor = statement.executeQuery("select * from student");
 
-        try
+        while (cursor.next())
         {
-            Statement statement = connection.createStatement();
-            ResultSet cursor = statement.executeQuery("select * from student");
+            Student stu = new Student();
+            stu.setId(cursor.getInt("id"));
+            stu.setName(cursor.getString("name"));
+            stu.setDept_name(cursor.getString("dept_name"));
+            stu.setScore(cursor.getDouble("score"));
 
-            while (cursor.next())
-            {
-                Student stu = new Student();
-                stu.setId(cursor.getInt("id"));
-                stu.setName(cursor.getString("name"));
-                stu.setDept_name(cursor.getString("dept_name"));
-                stu.setScore(cursor.getDouble("score"));
-
-                arr.add(stu);
-            }
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
+            arr.add(stu);
         }
         return arr;
     }
 
     //Read all
-    public static Student read(Integer id)
+    public static Student read(Integer id) throws SQLException
     {
         Student stu = new Student();
-        try
-        {
-            Statement statement = connection.createStatement();
-            ResultSet cursor = statement.executeQuery("select * from student where id = '"+id+"'");
 
-            while (cursor.next())
-            {
-                stu.setId(cursor.getInt("id"));
-                stu.setName(cursor.getString("name"));
-                stu.setDept_name(cursor.getString("dept_name"));
-                stu.setScore(cursor.getDouble("score"));
-            }
-        }
-        catch (SQLException e)
+        Statement statement = connection.createStatement();
+        ResultSet cursor = statement.executeQuery("select * from student where id = '"+id+"'");
+
+        while (cursor.next())
         {
-            e.printStackTrace();
-        }
+            stu.setId(cursor.getInt("id"));
+            stu.setName(cursor.getString("name"));
+            stu.setDept_name(cursor.getString("dept_name"));
+            stu.setScore(cursor.getDouble("score")); }
         return stu;
     }
 
     //Update name base on Id
-    public static void update(Integer id, String name)
+    public static void update(Integer id, String name) throws SQLException
     {
-        try
-        {
-            Statement statement = connection.createStatement();
-            statement.executeUpdate("update student set name = '"+name+"' where id = '"+id+"'");
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("update student set name = '"+name+"' where id = '"+id+"'");
     }
 
     //Update dept_name base on Id
-    public static void update(String department, Integer id)
+    public static void update(String department, Integer id) throws SQLException
     {
-        try
-        {
-            Statement statement = connection.createStatement();
-            statement.executeUpdate("update student set dept_name = '"+department+"' where id = '"+id+"'");
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("update student set dept_name = '"+department+"' where id = '"+id+"'");
     }
 
     //Update score base on Id
-    public static void update(Integer id, Double score)
+    public static void update(Integer id, Double score) throws SQLException
     {
-        try
-        {
-            Statement statement = connection.createStatement();
-            statement.executeUpdate("update student set score = '"+score+"' where id = '"+id+"'");
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("update student set score = '"+score+"' where id = '"+id+"'");
     }
 
     //Update score base on dept_name
-    public static void update(String department, Double score)
+    public static void update(String department, Double score) throws SQLException
     {
-        try
-        {
-            Statement statement = connection.createStatement();
-            statement.executeUpdate("update student set score = '"+score+"' where dept_name = '"+department+"'");
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("update student set score = '"+score+"' where dept_name = '"+department+"'");
     }
 
     //Delete base on dept_name
-    public static void delete(String dept_name)
+    public static void delete(String dept_name) throws SQLException
     {
-        try
-        {
-            Statement statement = connection.createStatement();
-            statement.executeUpdate("delete from student where dept_name = '"+dept_name+"'");
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("delete from student where dept_name = '"+dept_name+"'");
     }
 
     //Delete base on id
-    public static void delete(Integer id)
+    public static void delete(Integer id) throws SQLException
     {
-        try
-        {
-            Statement statement = connection.createStatement();
-            statement.executeUpdate("delete from student where id = '"+id+"'");
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("delete from student where id = '"+id+"'");
     }
 
     //Delete base on dept_name
-    public static void delete(Double score)
+    public static void delete(Double score) throws SQLException
     {
-        try
-        {
-            Statement statement = connection.createStatement();
-            statement.executeUpdate("delete from student where score = '"+score+"'");
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("delete from student where score = '"+score+"'");
     }
 }

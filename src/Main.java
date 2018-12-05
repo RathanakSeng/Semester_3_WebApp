@@ -2,6 +2,7 @@
  * @author Rathanak
  */
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -19,28 +20,44 @@ public class Main
             {
                 System.out.println("Enter 1 to insert a student's information or 2 for multiple insertion");
                 Integer choice = input.nextInt();
-                insert(choice);
+                try {
+                    insert(choice);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
                 break;
             case 2:
             {
                 System.out.println("Enter 1 to read a student's information or 2 for multiple information");
                 Integer choice = input.nextInt();
-                read(choice);
+                try {
+                    read(choice);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
                 break;
             case 3:
             {
                 System.out.print("What do you want to update? : 1 for name, 2 for department, 3 for score :");
                 Integer choice = input.nextInt();
-                update(choice);
+                try {
+                    update(choice);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
                 break;
             case 4:
             {
                 System.out.print("Delete base on : 1-id, 2-name, 3-department, 4-score :");
                 Integer choice = input.nextInt();
-                delete(choice);
+                try {
+                    delete(choice);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
                 break;
             default:
@@ -49,7 +66,7 @@ public class Main
         }
     }
 
-    private static void delete(Integer choice)
+    private static void delete(Integer choice) throws SQLException
     {
         switch (choice)
         {
@@ -86,7 +103,7 @@ public class Main
         }
     }
 
-    private static void update(Integer choice)
+    private static void update(Integer choice) throws SQLException
     {
         switch (choice)
         {
@@ -147,7 +164,7 @@ public class Main
         }
     }
 
-    private static void read(Integer choice)
+    private static void read(Integer choice) throws SQLException
     {
         switch (choice)
         {
@@ -178,7 +195,7 @@ public class Main
         }
     }
 
-    private static void insert(Integer choice)
+    private static void insert(Integer choice) throws SQLException
     {
         switch (choice)
         {

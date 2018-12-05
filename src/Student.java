@@ -1,4 +1,7 @@
-/*Data Transfer Object Class*/
+/**
+ * Model Class is the class to copy all the record from the database
+ * Data Transfer Object Class
+ */
 public class Student
 {
     private Integer id;
