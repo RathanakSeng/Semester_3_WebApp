@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76d752c4-4147-433e-b265-89d861d9e1c1" name="Default" comment="" />
+    <list default="true" id="73b22dc1-3db4-4048-8132-99601b04b36a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,30 +25,24 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CachedRowSetExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
+    <leaf>
+      <file leaf-file-name="JoinRowSetExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JoinRowSetExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
+            <state relative-caret-position="544">
+              <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#askQuite#0;class#CachedRowSetExample#0" />
-                <element signature="method#saveChange#0;class#CachedRowSetExample#0" />
-                <element signature="method#insertStudent#0;class#CachedRowSetExample#0" />
-                <element signature="method#deleteStudent#0;class#CachedRowSetExample#0" />
-                <element signature="method#updateStudent#0;class#CachedRowSetExample#0" />
-                <element signature="method#readStudent#0;class#CachedRowSetExample#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/594ef23e-f762-44b2-a5a8-15acae7a7ce5/console.sql">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e4be3b9-6d7f-45db-8179-7678e0ec31f9/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -65,8 +59,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/594ef23e-f762-44b2-a5a8-15acae7a7ce5/console.sql" />
-        <option value="$PROJECT_DIR$/src/CachedRowSetExample.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2e4be3b9-6d7f-45db-8179-7678e0ec31f9/console.sql" />
+        <option value="$PROJECT_DIR$/src/JoinRowSetExample.java" />
       </list>
     </option>
   </component>
@@ -88,14 +82,34 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyJoinRowSet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyJoinRowSet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyJoinRowSet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyJoinRowSet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../DatabaseConnector/mysql-connector-java-5.1.21.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -116,9 +130,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="CachedRowSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CachedRowSetExample" />
-      <module name="MyCachedRowSet" />
+    <configuration name="JoinRowSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JoinRowSetExample" />
+      <module name="MyJoinRowSet" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -164,7 +178,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CachedRowSetExample" />
+        <item itemvalue="Application.JoinRowSetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -173,52 +187,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="76d752c4-4147-433e-b265-89d861d9e1c1" name="Default" comment="" />
-      <created>1544839514916</created>
+      <changelist id="73b22dc1-3db4-4048-8132-99601b04b36a" name="Default" comment="" />
+      <created>1544936780186</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544839514916</updated>
-      <workItem from="1544839521031" duration="5872000" />
-      <workItem from="1544936367523" duration="415000" />
+      <updated>1544936780186</updated>
+      <workItem from="1544936785304" duration="1474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6287000" />
+    <option name="totallyTimeSpent" value="1474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1625964" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32969153" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3293011" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="right" id="Database" weight="0.32969153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3293011" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,48 +241,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e4be3b9-6d7f-45db-8179-7678e0ec31f9/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JoinRowSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#askQuite#0;class#CachedRowSetExample#0" />
-            <element signature="method#saveChange#0;class#CachedRowSetExample#0" />
-            <element signature="method#insertStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#deleteStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#updateStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#readStudent#0;class#CachedRowSetExample#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/594ef23e-f762-44b2-a5a8-15acae7a7ce5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/594ef23e-f762-44b2-a5a8-15acae7a7ce5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#askQuite#0;class#CachedRowSetExample#0" />
-            <element signature="method#saveChange#0;class#CachedRowSetExample#0" />
-            <element signature="method#insertStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#deleteStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#updateStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#readStudent#0;class#CachedRowSetExample#0" />
           </folding>
         </state>
       </provider>
@@ -327,7 +311,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MyCachedRowSet</last-edited>
+          <last-edited>MyJoinRowSet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
