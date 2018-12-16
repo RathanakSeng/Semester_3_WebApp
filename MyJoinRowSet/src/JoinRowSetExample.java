@@ -1,11 +1,10 @@
 import com.sun.rowset.CachedRowSetImpl;
 import com.sun.rowset.JoinRowSetImpl;
 
+import javax.sql.RowSet;
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.JoinRowSet;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
+import java.sql.*;
 
 /**
  * @author Rathanak
@@ -23,7 +22,7 @@ public class JoinRowSetExample
         crs_1.populate(rs_1);
         crs_1.setMatchColumn(1);
         jrs.addRowSet(crs_1);
-
+        
         ResultSet rs_2 = con.createStatement().executeQuery("select dept_name from student");
         CachedRowSet crs_2 = new CachedRowSetImpl();
         crs_2.populate(rs_2);
