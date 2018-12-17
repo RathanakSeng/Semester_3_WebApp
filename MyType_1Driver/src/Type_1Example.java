@@ -20,9 +20,6 @@ public class Type_1Example
         System.out.println("Connected to: " + con.getMetaData().getDatabaseProductName());
 
         Statement statement = con.createStatement();
-
-        Statement st = con.createStatement();
-        ResultSet s = st.execut
         String query = "insert into student(name, dept_name, score) value('Dara', 'History', '30.5')";
         statement.executeUpdate(query);
 
