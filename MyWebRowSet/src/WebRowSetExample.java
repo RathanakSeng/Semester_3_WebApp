@@ -11,7 +11,7 @@ public class WebRowSetExample {
     public static void main(String[] args) throws Exception {
         Connection conn = getMySqlConnection();
         System.out.println("Got Connection.");
-        Statement st = conn.createStatement();
+//        Statement st = conn.createStatement();
 
         String query = "select * from student";
 
@@ -24,7 +24,7 @@ public class WebRowSetExample {
         webRS.writeXml(sw);
         System.out.println(sw.toString());
 
-        st.close();
+//        st.close();
         conn.close();
     }
 

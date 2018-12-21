@@ -4,6 +4,11 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+    <!--Set the first page to response | Optional tag-->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
     <servlet>
         <servlet-name>FS</servlet-name>
         <servlet-class>FirstServe</servlet-class>
@@ -11,6 +16,33 @@
     <servlet-mapping>
         <servlet-name>FS</servlet-name>
         <url-pattern>/FirstServe</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SS</servlet-name>
+        <servlet-class>SuccessServe</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SS</servlet-name>
+        <url-pattern>/SuccessServe</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FaS</servlet-name>
+        <servlet-class>FailureServe</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FaS</servlet-name>
+        <url-pattern>/FailureServe</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LS</servlet-name>
+        <servlet-class>LogoutServe</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LS</servlet-name>
+        <url-pattern>/LogoutServe</url-pattern>
     </servlet-mapping>
 
 </web-app>

@@ -29,7 +29,7 @@
       <file leaf-file-name="CachedRowSetExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
+            <state relative-caret-position="639">
               <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -180,11 +180,12 @@
       <updated>1544839514916</updated>
       <workItem from="1544839521031" duration="5872000" />
       <workItem from="1544936367523" duration="415000" />
+      <workItem from="1545017641256" duration="104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6287000" />
+    <option name="totallyTimeSpent" value="6391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -213,12 +214,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +229,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#askQuite#0;class#CachedRowSetExample#0" />
+            <element signature="method#saveChange#0;class#CachedRowSetExample#0" />
+            <element signature="method#insertStudent#0;class#CachedRowSetExample#0" />
+            <element signature="method#deleteStudent#0;class#CachedRowSetExample#0" />
+            <element signature="method#updateStudent#0;class#CachedRowSetExample#0" />
+            <element signature="method#readStudent#0;class#CachedRowSetExample#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/594ef23e-f762-44b2-a5a8-15acae7a7ce5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
@@ -260,7 +284,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
+        <state relative-caret-position="639">
           <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
           <folding>
             <element signature="imports" expanded="true" />

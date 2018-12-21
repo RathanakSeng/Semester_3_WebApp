@@ -18,7 +18,7 @@
     </head>
     <body>
         <div class="container my-form">
-            <form action="FirstServe" method="post">
+            <form action="FirstServe" method="POST">
                 <div class="form-group">
                     <label for="name">Username:</label>
                     <input type="text" name="name" class="form-control" id="name">
@@ -27,12 +27,18 @@
                     <label for="email">Email:</label>
                     <input type="email" name="email" class="form-control" id="email">
                 </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" name="pass" class="form-control" id="password">
+                </div>
+                <br>
                 <button type="submit" class="btn btn-outline-primary">Submit</button>
             </form>
         </div>
     </body>
     <style>
         .my-form {
+            padding: 1em;
             margin-top: 1em;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
