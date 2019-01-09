@@ -3,6 +3,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
+import javax.sql.rowset.RowSetProvider;
 import javax.sql.rowset.WebRowSet;
 
 import com.sun.rowset.WebRowSetImpl;
@@ -15,7 +16,7 @@ public class WebRowSetExample {
 
         String query = "select * from student";
 
-        WebRowSet webRS = new WebRowSetImpl();
+        WebRowSet webRS = RowSetProvider.newFactory().createWebRowSet();
         webRS.setCommand(query);
         webRS.execute(conn);
 

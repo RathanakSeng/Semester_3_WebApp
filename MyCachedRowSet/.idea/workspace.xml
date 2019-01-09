@@ -21,7 +21,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
@@ -29,16 +45,10 @@
       <file leaf-file-name="CachedRowSetExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
+            <state relative-caret-position="500">
+              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#askQuite#0;class#CachedRowSetExample#0" />
-                <element signature="method#saveChange#0;class#CachedRowSetExample#0" />
-                <element signature="method#insertStudent#0;class#CachedRowSetExample#0" />
-                <element signature="method#deleteStudent#0;class#CachedRowSetExample#0" />
-                <element signature="method#updateStudent#0;class#CachedRowSetExample#0" />
-                <element signature="method#readStudent#0;class#CachedRowSetExample#0" />
               </folding>
             </state>
           </provider>
@@ -95,7 +105,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyJoinRowSet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -181,11 +191,14 @@
       <workItem from="1544839521031" duration="5872000" />
       <workItem from="1544936367523" duration="415000" />
       <workItem from="1545017641256" duration="104000" />
+      <workItem from="1547022625660" duration="35000" />
+      <workItem from="1547036087389" duration="606000" />
+      <workItem from="1547036956753" duration="1338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6391000" />
+    <option name="totallyTimeSpent" value="8370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -193,6 +206,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -214,7 +228,6 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -235,12 +248,57 @@
           <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#askQuite#0;class#CachedRowSetExample#0" />
-            <element signature="method#saveChange#0;class#CachedRowSetExample#0" />
-            <element signature="method#insertStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#deleteStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#updateStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#readStudent#0;class#CachedRowSetExample#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/594ef23e-f762-44b2-a5a8-15acae7a7ce5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/594ef23e-f762-44b2-a5a8-15acae7a7ce5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/594ef23e-f762-44b2-a5a8-15acae7a7ce5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -258,12 +316,6 @@
           <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#askQuite#0;class#CachedRowSetExample#0" />
-            <element signature="method#saveChange#0;class#CachedRowSetExample#0" />
-            <element signature="method#insertStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#deleteStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#updateStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#readStudent#0;class#CachedRowSetExample#0" />
           </folding>
         </state>
       </provider>
@@ -284,16 +336,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CachedRowSetExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="161" column="316" selection-start-line="161" selection-start-column="316" selection-end-line="161" selection-end-column="316" />
+        <state relative-caret-position="500">
+          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#askQuite#0;class#CachedRowSetExample#0" />
-            <element signature="method#saveChange#0;class#CachedRowSetExample#0" />
-            <element signature="method#insertStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#deleteStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#updateStudent#0;class#CachedRowSetExample#0" />
-            <element signature="method#readStudent#0;class#CachedRowSetExample#0" />
           </folding>
         </state>
       </provider>

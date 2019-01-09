@@ -99,14 +99,16 @@ public class DataManager
     {
 
         Statement statement = connection.createStatement();
-        statement.executeUpdate("update student set score = '"+score+"' where id = '"+id+"'");
+        int a = statement.executeUpdate("update student set score = '"+score+"' where id = '"+id+"'");
+        System.out.println(a);
     }
 
     //Update score base on dept_name
     public static void update(String department, Double score) throws SQLException
     {
         Statement statement = connection.createStatement();
-        statement.executeUpdate("update student set score = '"+score+"' where dept_name = '"+department+"'");
+        int a = statement.executeUpdate("update student set score = '"+score+"' where dept_name = '"+department+"'");
+        System.out.println(a);
     }
 
     //Delete base on dept_name

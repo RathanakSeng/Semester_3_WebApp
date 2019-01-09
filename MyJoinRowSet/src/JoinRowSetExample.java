@@ -19,7 +19,7 @@ public class JoinRowSetExample
         JoinRowSet jrs = RowSetProvider.newFactory().createJoinRowSet();
 
         ResultSet rs_1 = con.createStatement().executeQuery("select * from department");
-        CachedRowSet crs_1 = new CachedRowSetImpl();
+        CachedRowSet crs_1 = RowSetProvider.newFactory().createCachedRowSet();
         crs_1.populate(rs_1);
         crs_1.setMatchColumn(2);
         jrs.addRowSet(crs_1);
