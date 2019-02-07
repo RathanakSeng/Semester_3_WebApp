@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JSTLProject_Tesing:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JSTLProject_Tesing_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JSTLProject_Tesing/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JSTLProject_Tesing" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

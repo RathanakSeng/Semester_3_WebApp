@@ -11,7 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-    <
     <form action="MyServlet" method="post">
       <input type="text" name="name" />
       <input type="submit" value="LoggIn" />

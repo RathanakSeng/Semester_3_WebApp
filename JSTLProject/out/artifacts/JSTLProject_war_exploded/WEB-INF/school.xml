@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<school>
+    <section>
+        <sid>111</sid>
+        <sname>Rathanak</sname>
+        <ssection>section A</ssection>
+    </section>
+    <section>
+        <sid>112</sid>
+        <sname>Monyvorn</sname>
+        <ssection>section B</ssection>
+    </section>
+    <section>
+        <sid>113</sid>
+        <sname>Vudthi</sname>
+        <ssection>section C</ssection>
+    </section>
+    <section>
+        <sid>114</sid>
+        <sname>ChunE</sname>
+        <ssection>section D</ssection>
+    </section>
+</school>

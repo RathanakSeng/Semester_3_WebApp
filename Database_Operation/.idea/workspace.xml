@@ -38,13 +38,8 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
+            <state relative-caret-position="1323">
               <caret line="65" column="1" selection-end-line="65" selection-end-column="1" />
-              <folding>
-                <element signature="method#Student#0;class#Student#0" />
-                <element signature="method#Student#1;class#Student#0" />
-                <element signature="method#toString#0;class#Student#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -52,18 +47,10 @@
       <file leaf-file-name="DataManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="58">
+              <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="initializer##0;class#DataManager#0" />
-                <element signature="method#insert#0;class#DataManager#0" />
-                <element signature="method#read#0;class#DataManager#0" />
-                <element signature="method#update#0;class#DataManager#0" />
-                <element signature="method#update#1;class#DataManager#0" />
-                <element signature="method#delete#0;class#DataManager#0" />
-                <element signature="method#delete#1;class#DataManager#0" />
-                <element signature="method#delete#2;class#DataManager#0" />
+                <element signature="e#1566#1575#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,16 +59,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="4374">
               <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="method#main#0;class#Main#0" />
-                <element signature="method#delete#0;class#Main#0" />
-                <element signature="method#update#0;class#Main#0" />
-                <element signature="method#read#0;class#Main#0" />
-                <element signature="method#insert#0;class#Main#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,14 +115,29 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Writing_and_Reading_from_MySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyCachedRowSet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DAOServlet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -233,18 +227,21 @@
       <workItem from="1544073400060" duration="566000" />
       <workItem from="1547018823829" duration="5098000" />
       <workItem from="1547035758921" duration="321000" />
+      <workItem from="1549465351514" duration="786000" />
+      <workItem from="1549466479946" duration="134000" />
+      <workItem from="1549466799784" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27022000" />
+    <option name="totallyTimeSpent" value="27994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -256,7 +253,7 @@
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20051414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22750643" />
       <window_info anchor="right" id="Database" order="3" weight="0.32969153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -271,7 +268,6 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="6" weight="0.3293011" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Messages" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,11 +293,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="65" column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4374">
+          <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2862">
+          <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
           <folding>
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#toString#0;class#Student#0" />
+            <element signature="e#1566#1575#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ff06c515-3f42-459e-932b-8938cc8fa4bb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="65" column="1" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -309,14 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4482">
           <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#delete#0;class#Main#0" />
-            <element signature="method#update#0;class#Main#0" />
-            <element signature="method#read#0;class#Main#0" />
-            <element signature="method#insert#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -324,17 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3024">
           <caret line="112" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#DataManager#0" />
-            <element signature="method#insert#0;class#DataManager#0" />
-            <element signature="method#read#0;class#DataManager#0" />
-            <element signature="method#update#0;class#DataManager#0" />
-            <element signature="method#update#1;class#DataManager#0" />
-            <element signature="method#delete#0;class#DataManager#0" />
-            <element signature="method#delete#1;class#DataManager#0" />
-            <element signature="method#delete#2;class#DataManager#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,11 +352,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="65" column="1" selection-end-line="65" selection-end-column="1" />
-          <folding>
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#toString#0;class#Student#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ff06c515-3f42-459e-932b-8938cc8fa4bb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="65" column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4482">
+          <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ff06c515-3f42-459e-932b-8938cc8fa4bb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="65" column="1" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -361,14 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="195" column="5" selection-end-line="232" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#delete#0;class#Main#0" />
-            <element signature="method#update#0;class#Main#0" />
-            <element signature="method#read#0;class#Main#0" />
-            <element signature="method#insert#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -376,17 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#DataManager#0" />
-            <element signature="method#insert#0;class#DataManager#0" />
-            <element signature="method#read#0;class#DataManager#0" />
-            <element signature="method#update#0;class#DataManager#0" />
-            <element signature="method#update#1;class#DataManager#0" />
-            <element signature="method#delete#0;class#DataManager#0" />
-            <element signature="method#delete#1;class#DataManager#0" />
-            <element signature="method#delete#2;class#DataManager#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -401,11 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding>
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#toString#0;class#Student#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,17 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
           <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#DataManager#0" />
-            <element signature="method#insert#0;class#DataManager#0" />
-            <element signature="method#read#0;class#DataManager#0" />
-            <element signature="method#update#0;class#DataManager#0" />
-            <element signature="method#update#1;class#DataManager#0" />
-            <element signature="method#delete#0;class#DataManager#0" />
-            <element signature="method#delete#1;class#DataManager#0" />
-            <element signature="method#delete#2;class#DataManager#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,14 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6264">
           <caret line="232" column="1" selection-start-line="232" selection-start-column="1" selection-end-line="232" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#delete#0;class#Main#0" />
-            <element signature="method#update#0;class#Main#0" />
-            <element signature="method#read#0;class#Main#0" />
-            <element signature="method#insert#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -453,11 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding>
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#toString#0;class#Student#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -465,17 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
           <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#DataManager#0" />
-            <element signature="method#insert#0;class#DataManager#0" />
-            <element signature="method#read#0;class#DataManager#0" />
-            <element signature="method#update#0;class#DataManager#0" />
-            <element signature="method#update#1;class#DataManager#0" />
-            <element signature="method#delete#0;class#DataManager#0" />
-            <element signature="method#delete#1;class#DataManager#0" />
-            <element signature="method#delete#2;class#DataManager#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,14 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6264">
           <caret line="232" column="1" lean-forward="true" selection-start-line="232" selection-start-column="1" selection-end-line="232" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#delete#0;class#Main#0" />
-            <element signature="method#update#0;class#Main#0" />
-            <element signature="method#read#0;class#Main#0" />
-            <element signature="method#insert#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,11 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#toString#0;class#Student#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,17 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#DataManager#0" />
-            <element signature="method#insert#0;class#DataManager#0" />
-            <element signature="method#read#0;class#DataManager#0" />
-            <element signature="method#update#0;class#DataManager#0" />
-            <element signature="method#update#1;class#DataManager#0" />
-            <element signature="method#delete#0;class#DataManager#0" />
-            <element signature="method#delete#1;class#DataManager#0" />
-            <element signature="method#delete#2;class#DataManager#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,14 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#delete#0;class#Main#0" />
-            <element signature="method#update#0;class#Main#0" />
-            <element signature="method#read#0;class#Main#0" />
-            <element signature="method#insert#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,11 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-          <folding>
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#toString#0;class#Student#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -569,14 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#delete#0;class#Main#0" />
-            <element signature="method#update#0;class#Main#0" />
-            <element signature="method#read#0;class#Main#0" />
-            <element signature="method#insert#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,17 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
           <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#DataManager#0" />
-            <element signature="method#insert#0;class#DataManager#0" />
-            <element signature="method#read#0;class#DataManager#0" />
-            <element signature="method#update#0;class#DataManager#0" />
-            <element signature="method#update#1;class#DataManager#0" />
-            <element signature="method#delete#0;class#DataManager#0" />
-            <element signature="method#delete#1;class#DataManager#0" />
-            <element signature="method#delete#2;class#DataManager#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,52 +546,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
+        <state relative-caret-position="1323">
           <caret line="65" column="1" selection-end-line="65" selection-end-column="1" />
-          <folding>
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#toString#0;class#Student#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="4374">
           <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#delete#0;class#Main#0" />
-            <element signature="method#update#0;class#Main#0" />
-            <element signature="method#read#0;class#Main#0" />
-            <element signature="method#insert#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.sql/java/sql/PreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="1317" column="17" selection-start-line="1317" selection-start-column="17" selection-end-line="1317" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.sql/java/sql/PreparedStatement.java" />
     <entry file="file://$PROJECT_DIR$/src/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="58">
+          <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#DataManager#0" />
-            <element signature="method#insert#0;class#DataManager#0" />
-            <element signature="method#read#0;class#DataManager#0" />
-            <element signature="method#update#0;class#DataManager#0" />
-            <element signature="method#update#1;class#DataManager#0" />
-            <element signature="method#delete#0;class#DataManager#0" />
-            <element signature="method#delete#1;class#DataManager#0" />
-            <element signature="method#delete#2;class#DataManager#0" />
+            <element signature="e#1566#1575#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,7 +634,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>Android API 28 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
