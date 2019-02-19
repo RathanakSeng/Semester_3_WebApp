@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: bsg
-  Date: 2/4/2019
-  Time: 2:07 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml" %>
@@ -14,7 +7,7 @@
     </head>
     <body>
         <c:set var="name" value="${param.name}" scope="session"/>
-        <c:out value="name"/>
+        <c:out value="${name}"/>
         <c:remove var="name" scope="session"/>
 
         <!--Use XML-->
