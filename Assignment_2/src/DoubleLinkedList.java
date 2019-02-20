@@ -1,4 +1,4 @@
-public class BoubleLinkedList
+public class DoubleLinkedList
 {
     Node head;
 
