@@ -21,12 +21,12 @@
     <jsp:setProperty name="student" property="username" value="Rathanak"/>
 
     <jsp:forward page="error.jsp">
-        <jsp:param name="name" value="Rathanak"/>
+        <jsp:param name="myName" value="Rathanak"/>
     </jsp:forward>
     <%--<jsp:include page="error.jsp"/>--%>
     <%!
 //        String name;
-        public Integer sum(Integer a, Integer b) {
+        public int sum(int a, int b) {
             return a + b;
         }
     %>

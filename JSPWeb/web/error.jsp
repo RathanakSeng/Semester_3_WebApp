@@ -17,6 +17,8 @@
     <jsp:useBean id="student" class="com.bean.MyBean" scope="session"></jsp:useBean>
     <i>id: <jsp:getProperty name="student" property="id"/></i>
     <br>
-    <i>name: ${param.name}</i> <!--Expression language, directly print every-->
+    <i>name: <jsp:getProperty name="student" property="username"/></i>
+    <br>
+    <i>myName: ${param.myName}</i> <!--Expression language, directly print every-->
 </body>
 </html>

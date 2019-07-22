@@ -94,8 +94,12 @@ public class DoubleLinkedList
 
     public void deleteByPosition (int position) {
         if (position == 0) {
-            this.head = this.head.next;
-            this.head.prev = null;
+            if (this.head.next != null) {
+                this.head = this.head.next;
+                this.head.prev = null;
+            } else {
+                this.head = null;
+            }
             return;
         }
         int i = 0;

@@ -15,15 +15,6 @@
         <input type="text" name="name"/>
         <input type="submit" value="To next"/>
     </form>
+    ${pageContext.session.id}
 </body>
 </html>
-
-<!--Action tag-->
-<!--
-    1. forward - from one jsp to other
-    2. include - include other jsps into current jsp
-    3. setAttribute - set attribute in any scope
-    4. getAttribute get attribute in any scope
-    5. param - pass param
-    6. useBean -  // Private variable, default constructor, getter and setter, serializable
--->
